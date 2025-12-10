@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esercizio matrici 2</title>
+    <script src="Script/script.js"></script>
+</head>
+<body>
+    <h1>Esercizio 2</h1>
+    <p>In un videogioco strategico, il giocatore deve attivare un Campo di Energia 8x8 composto da celle che possono valere 0 o 1.</p>
+    <p>Ogni cella rappresenta un nodo del sistema di difesa.</p>
+    <p>Il programma deve riempire il campo con valori casuali compresi tra 0 e 1 e poi controllare che, in ogni riga, il numero di celle attive (valore 1) sia uguale a quello della riga precedente.</p>
+    <p>Se la condizione è rispettata per tutte le righe, il sistema si considera stabilizzato</p>
+    <br>
+    <button onclick="crea()">Crea videogioco</button>
+    <br><br>
+    <table id="output"></table>
+    <p id="stabilità"></p>
+</body>
+</html>
