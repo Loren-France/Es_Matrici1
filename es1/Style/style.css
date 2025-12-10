@@ -1,0 +1,20 @@
+table {
+    border-collapse: collapse; /* unisce i bordi */
+    margin: 10px 0;            /* un po' di spazio sopra e sotto */
+    width: 300px;              /* larghezza fissa semplice */
+  }
+
+  caption {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  th, td {
+    border: 1px solid black;   /* bordo semplice */
+    padding: 5px;              /* spazio interno */
+    text-align: center;        /* testo centrato */
+  }
+
+  th {
+    background-color: #f0f0f0; /* grigio chiaro per intestazioni */
+  }
